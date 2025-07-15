@@ -1,0 +1,30 @@
+# Node.js dependencies (if you're using npm/yarn)
+node_modules/
+
+# Build directories (for static site generators or bundlers)
+dist/
+build/
+
+# Logs
+*.log
+
+# System files (Mac and Windows specific)
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories (if using VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Environment variables (for sensitive data like API keys)
+.env
+
+# Temporary files from editors
+*.swp
+*~
+
+# Bower dependencies (if you use Bower for front-end packages)
+bower_components/
+
+# Ignore asset directories that are compiled or generated
+public/

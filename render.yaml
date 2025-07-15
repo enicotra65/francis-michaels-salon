@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: static_site
+    name: francis-michaels-hair-salon
+    env: static
+    buildCommand: npm run build # This is for static sites that need to be built, otherwise leave it empty
+    publishDirectory: / # If you're deploying static files from the root of the project
+    staticPublishPath: / # If your site files are in a directory like "dist" or "public", set this path
+    autoDeploy: true

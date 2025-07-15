@@ -1,0 +1,14 @@
+{
+  "name": "francis-michaels-salon",
+  "version": "1.0.0",
+  "description": "Website for Francis Michaels Hair Salon",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",  
+    "build": "echo 'Building static site...'", 
+    "deploy": "render deploy"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"  
+  }
+}
