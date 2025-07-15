@@ -245,6 +245,10 @@ footer {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.section-container p {
+  text-align: center;
+}
+
 /* Section Header */
 .section-header h2 {
   font-family: var(--font-heading);
